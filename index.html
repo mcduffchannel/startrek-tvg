@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <title>STAR TREK</title>
+    <meta name="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="trek.css" />
+    
+    <script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="jquery.console.js"></script>
+    <script type="text/javascript" src="trek.js"></script>
+ 
+    <script type="text/javascript">
+ 
+      $(document).ready(function(){
+          var trek = new Trek();
+          trek.ready('#viewScreenContainer');
+       });
+    </script>
+  </head>
+  <body bgcolor=black>
+	<font color=white>
+	  <div id="viewScreenContainer" class="viewScreen">
+      <noscript>
+        <p class="bright">
+          <strong>Enable javaScript for best results.</strong>
+        </p>
+      </noscript>
+		</div>
+	</font>
+  </body>
+</html>
