@@ -7,14 +7,14 @@
 			
 		  div.viewScreen 
 			{
-			  width: 900px;
-			  height: 796px;
+			  width: 1080px;
+			  height: 1080px;
 			}
 			
 			p.bright
 			{
 			  color:white; 
-				font-family:Lucida Console;
+				font-family:Consolas;
 				font-size: 12px;
 				font-weight:normal;
         padding:0.1em;
@@ -27,7 +27,7 @@
       pre.console1 div.jquery-console-prompt-box
       { 
 			  color:white; 
-				font-family:Lucida Console;
+				font-family:Consolas;
 				font-size: 12px;
 				font-weight:normal;
         padding:0.1em;
@@ -41,7 +41,7 @@
       pre.console1 div.jquery-console-message-value
        { 
 			  color:white; 
-				font-family:Lucida Console;
+				font-family:Consolas;
 				font-size: 12px;
 				font-weight:normal;
         padding:0.1em;
@@ -50,7 +50,7 @@
       pre.console1 div.jquery-console-message-bright
        { 
 			  color:white; 
-				font-family:Lucida Console;
+				font-family:Consolas;
 				font-size: 12px;
 				font-weight:normal;
         padding:0.1em;
@@ -59,7 +59,7 @@
       pre.console1 div.jquery-console-message-green
        { 
 			  color:#00ff00; 
-				font-family:Lucida Console;
+				font-family:Consolas;
 				font-size: 12px;
 				font-weight:normal;
         padding:0.1em;
@@ -69,14 +69,14 @@
       pre.console1 div.jquery-console-message-bright-green
        { 
 			  color:#00ff00; 
-				font-family:Lucida Console;
+				font-family:Consolas;
 				font-size: 12px;
 				font-weight:normal;
         padding:0.1em;
 			 }
        
       pre.console1 div.jquery-console-message-type
-       { color:#52666f; font-family:Lucida Console;
+       { color:#52666f; font-family:Consolas;
          padding:0.1em; }
       pre.console1 span.jquery-console-prompt-label { font-weight:bold }
       
