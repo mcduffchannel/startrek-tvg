@@ -1,82 +1,73 @@
+/* Define the font-face for global use */
+@font-face {
+    font-family: 'Lucida Console';
+    src: url('lucon.ttf') format('truetype');
+}
 
-			body
-      {
-        background-color: rgb(11,7,8);
-        overflow-y: hidden;
-      }
-			
-		  div.viewScreen 
-			{
-			  width: 100%;
-			  height: 50%;
-			}
-			
-			p.bright
-			{
-			  color:white; 
-				font-family: 'Lucida Console'; src: url('lucon.ttf') format('truetype');
-				font-size: 12px;
-				font-weight:normal;
-        padding:0.1em;
-			}
-			
-      pre.console1 { font-size: 12px }
-      pre.console1 div.jquery-console-inner 
-       { width:100%; height:50%; background:#000; padding:0.5em;
-         overflow:auto }
-      pre.console1 div.jquery-console-prompt-box
-      { 
-			  color:white; 
-				font-family: 'Lucida Console'; src: url('lucon.ttf') format('truetype');
-				font-size: 12px;
-				font-weight:normal;
-        padding:0.1em;
-		  }
-      pre.console1 div.jquery-console-focus span.jquery-console-cursor 
-       { background:#fefefe; color:#333; font-weight:bold }
-      pre.console1 div.jquery-console-message-error
-       { color:#ef0505; font-family: 'Lucida Console'; src: url('lucon.ttf') format('truetype'); font-weight:bold;
-         padding:0.1em; }
-         
-      pre.console1 div.jquery-console-message-value
-       { 
-			  color:white; 
-				font-family: 'Lucida Console'; src: url('lucon.ttf') format('truetype');
-				font-size: 12px;
-				font-weight:normal;
-        padding:0.1em;
-			 }
+/* Apply global font settings */
+* {
+    font-family: 'Lucida Console', monospace; /* Fallback to monospace in case of loading issues */
+    font-size: 12px;
+    font-weight: normal;
+    color: #ffff00; /* Corrected the color format */
+}
 
-      pre.console1 div.jquery-console-message-bright
-       { 
-			  color:white; 
-				font-family: 'Lucida Console'; src: url('lucon.ttf') format('truetype');
-				font-size: 12px;
-				font-weight:normal;
-        padding:0.1em;
-			 }
-       
-      pre.console1 div.jquery-console-message-green
-       { 
-			  color:#00ff00; 
-				font-family: 'Lucida Console'; src: url('lucon.ttf') format('truetype');
-				font-size: 12px;
-				font-weight:normal;
-        padding:0.1em;
-			 }
-       
-       
-      pre.console1 div.jquery-console-message-bright-green
-       { 
-			  color:#00ff00; 
-				font-family: 'Lucida Console'; src: url('lucon.ttf') format('truetype');
-				font-size: 12px;
-				font-weight:normal;
-        padding:0.1em;
-			 }
-       
-      pre.console1 div.jquery-console-message-type
-       { color:#52666f; font-family: 'Lucida Console'; src: url('lucon.ttf') format('truetype');
-         padding:0.1em; }
-      pre.console1 span.jquery-console-prompt-label { font-weight:bold }
-      
+/* Body specific styles */
+body {
+    background-color: rgb(11,7,8);
+    overflow-y: hidden;
+}
+
+/* Styles for div.viewScreen */
+div.viewScreen {
+    width: 100%;
+    height: 50%;
+}
+
+/* Styles for p.bright */
+p.bright {
+    color: white;
+    padding: 0.1em;
+}
+
+/* Styles for pre.console1 and its inner elements */
+pre.console1 {
+    font-size: 12px;
+}
+
+pre.console1 div.jquery-console-inner {
+    width: 100%;
+    height: 50%;
+    background: #000;
+    padding: 0.5em;
+    overflow: auto;
+}
+
+pre.console1 div.jquery-console-focus span.jquery-console-cursor {
+    background: #fefefe;
+    color: #333;
+    font-weight: bold;
+}
+
+pre.console1 div.jquery-console-message-error {
+    color: #ef0505;
+    font-weight: bold;
+    padding: 0.1em;
+}
+
+pre.console1 div.jquery-console-message-value,
+pre.console1 div.jquery-console-message-bright,
+pre.console1 div.jquery-console-message-green,
+pre.console1 div.jquery-console-message-bright-green {
+    color: #00ff00;
+    padding: 0.1em;
+}
+
+pre.console1 div.jquery-console-message-type {
+    color: #52666f;
+    padding: 0.1em;
+}
+
+pre.console1 span.jquery-console-prompt-label {
+    font-weight: bold;
+}
