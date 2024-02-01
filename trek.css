@@ -20,7 +20,7 @@ body {
 
 /* Styles for div.viewScreen */
 div.viewScreen {
-    width: 50%;
+    width: 90%;
     height: 50%;
 }
 
@@ -36,7 +36,7 @@ pre.console1 {
 }
 
 pre.console1 div.jquery-console-inner {
-    width: 50%;
+    width: 90%;
     height: 50%;
     background: #000;
     padding: 0.5em;
